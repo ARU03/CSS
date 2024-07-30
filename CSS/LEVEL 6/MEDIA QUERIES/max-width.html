@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media Queries (Max-Width)</title>
+    <style>
+        .box {
+            height : 100px;
+            width  : 100px;
+            padding : 5px;
+            background-color : green;
+        }
+
+        /* When the width is greater than 300px then the color will be automaticlally 
+        changed to his original color  */
+
+        @media screen and (max-width : 300px) {
+            .box {
+                background-color : brown;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box 1</div>
+</body>
+</html>

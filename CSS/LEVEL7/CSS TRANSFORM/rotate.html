@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS_TRANSFORM (ROTATE)</title>
+    <style>
+        .box {
+            height : 50px;
+            width  : 50px;
+            border : 2px solid black;
+            border-radius : 5px;
+            background-color : plum;
+            position : relative; 
+            top : 50px;
+            left : 50px;
+
+            transition : all 1s ease-in;
+        }
+        .box:hover {
+            /* transform : rotate(45deg); */
+            /* transform : rotatex(180deg); */
+            /* transform : rotatey(45deg); */
+            /* transform : rotatex(45deg); */
+            transform : rotatez(45deg);
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">Rotate</div>
+</body>
+</html>

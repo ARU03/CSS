@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text-Decoration</title>
+    <style>
+        * {
+            margin : 0;
+            padding : 0;
+        }
+        .text {
+            height : 100px;
+            width : 500px;
+            background-color :rgb(88, 139, 11);
+        }
+        #head1 {
+            text-decoration : underline;
+        }
+        #head2 {
+            text-decoration : overline; 
+        }
+        #head3 {
+            text-decoration : line-through;
+        }
+        #link {
+            text-decoration : none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="head1" class="text">This Is My First Text</h1> <br>
+    <h2 id="head2" class="text">This Is My Second Text</h2> <br>
+    <h3 id="head3" class="text">This Is My Third Text</h3> <br>
+    <!-- # Tag means self link and by default come with underline  -->
+    <a id="link" href="#">This Is My Link</a>
+</body>
+</html>

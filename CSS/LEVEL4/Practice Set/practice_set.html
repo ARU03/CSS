@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice Set</title>
+    <style>
+        .box {
+            background-color : purple;
+            height : 200px;
+            width : 200px;
+            padding : 5px;
+            margin : 5px;
+            font-size: 55px;
+            border: 20px dashed rgb(21, 1, 41);
+        }
+        #button1 {
+            /* height : 20px;
+            width : 20px; */
+            /* background-color: rgb(150, 23, 23); */
+            /* padding : 10px 15px 10px 15px; */
+            padding : 10px 15px;
+            /* margin never added in box model */
+            margin : 100px;
+            border : 3px dotted black;
+            border-radius : 55px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box" style="box-sizing: border-box;">Click Me</div>
+    <br>
+    <div class="box" style="box-sizing: content-box;">Click Me</div>
+    <button id="button1">Click Here</button>
+</body>
+</html>

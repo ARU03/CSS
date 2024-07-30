@@ -1,0 +1,48 @@
+* {
+    margin  : 0px; 
+    padding  : 0px;
+}
+
+#heading {
+    text-align : center;
+}
+
+#container {
+    height : 300px;
+    width  : 600px;
+    border : 3px solid black;
+    margin : 20px ;
+    padding : 10px;
+    background-color : lavender ;
+
+    display : flex;
+    /* flex-wrap : wrap; */
+    align-items : center;
+    /* justify-content: space-evenly; */
+
+}
+
+.box {
+    height : 200px;
+    width  : 200px;
+    border : 3px solid black;
+    margin : 5px;
+}
+
+#box1 {
+    background-color : lawngreen;
+}
+#box2 {
+    background-color : chocolate;
+}
+#box3 {
+    background-color : purple;
+    /* flex 4 means multiply by 4
+    flex 2 means multiply by 2
+    flex 0 means no change 
+    flex 0.5 mean half than others */
+    flex-shrink : 0.5;
+}
+#box4 {
+    background-color : orangered;
+}

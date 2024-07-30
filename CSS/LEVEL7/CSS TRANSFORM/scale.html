@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Transform (Scale)</title>
+    <style>
+        .box {
+            height : 100px ;
+            width  : 100px ;
+            border : 2px solid black ;
+            border-radius : 10px;
+            text-align: center;
+            background-color : lightgreen;
+
+            position : relative; 
+            top : 200px;
+            left: 600px;
+
+            transition : all 1s ease-in;
+        }
+
+        .box:hover {
+
+            /* The box will be Twice  */
+            /* transform : scale(2); */
+
+            /* The box will be increase 4 times of the actual    */
+            /* transform : scale(4); */
+
+            /* The box will be twice s axis */
+            /* transform : scalex(2); */
+
+            /* the box will be twice y axis */
+            transform : scaley(2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        Scale
+    </div>
+    
+</body>
+</html>

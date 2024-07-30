@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Relative Unit : Percentages</title>
+    <style>
+        * {
+            margin : 0;
+            padding : 0;
+            font-size : 5px;
+        }
+        #first {
+            height : 100px;
+            width  : 200px;
+            background-color : red;
+            font-size : 10px;
+        }
+        #second {
+            height : 60%;
+            width  : 50%;
+            /* rem means helf of body size */
+            font-size : 0.5rem;
+            background-color : royalblue;
+        }
+    </style>
+</head>
+<body>
+    Body Text
+    <div id="first">
+        First Div
+        <div id="second">
+            Second Div
+        </div>
+    </div>
+    
+</body>
+</html>

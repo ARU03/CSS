@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PRACTICE_SET</title>
+    <style>
+        .progress-container {
+            width : 90%;
+            height : 25px;
+            background-color : lavender;
+
+            border : 2px solid black;
+            border-radius : 25px;
+            position : relative;
+            left : 50px;
+            top  : 20px;
+        }
+
+        .progress-bar {
+            background-color: orangered;
+            height : 100%;
+            /* width  : 50%; */
+            border-radius : 25px;
+            animation : animate-progress 3s 5;
+        }
+
+        /* @keyframes animate-progress {
+            from {width: 0%}
+            to   {width :100%}
+        } */
+        @keyframes animate-progress {
+            0% {width: 0%}
+            90% {width : 95%}
+            95% {width : 75%}
+            100% {width: 100%}
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar">
+        </div>
+    </div>
+
+    
+</body>
+</html>

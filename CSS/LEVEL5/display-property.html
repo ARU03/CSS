@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Property</title>
+    <style>
+        * {
+            margin : 0px;
+            padding: 0px;
+        }
+        .box {
+            height : 100px;
+            width : 100px;
+            margin : 5px;
+            background-color: olive;
+            /* no difference, by default display and taken full width*/
+            /* display : block; */
+            /* Inline content size cant set easily */
+            /* if size end then come into the next line */
+            /* IF WE put inline then we can't set height and width */
+            display : inline;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" class="box">box1</div>
+    <div id="div2" class="box">box2</div>
+    <div id="div3" class="box">box3</div>
+</body>
+</html>

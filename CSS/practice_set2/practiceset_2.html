@@ -1,0 +1,47 @@
+<!-- 
+Q. Create a div bar with text and background color with Opacity;
+Q. Change the Color Of The Main Content;
+Q. Add Background Image With Div;
+Q. Use Background Shorthand Property; 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practice Set 2</title>
+    <style>
+        /* to remove background box */
+        * {
+            margin : 0;
+            padding: 0;
+        }
+        #bar {
+            background-color : aquamarine;
+            color : rgba(103,18,18,0.8);
+        }
+        #product {
+            height: 255px;
+            width : 235px;
+            /* Using Shorthand background */
+            background : url(product.jpeg) rgb(230, 178, 101) no-repeat center;
+            /* background-color: blanchedalmond;
+            background-image: url(product.jpeg);
+            background-repeat: no-repeat;
+            background-position: center; */
+        }
+
+    </style>
+</head>
+<body>
+    <head>
+        <div id="bar">This is My Div Bar</div>
+    </head>
+    <main>
+        <div id="product">Product 1</div>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

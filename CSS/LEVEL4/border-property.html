@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border Property</title>
+    <style>
+        * {
+            margin : 0px;
+            padding: 0px;
+        }
+        .bord {
+            height : 50px;
+            width  : 50px;
+            padding: 2px;
+            margin : 5px;
+        }
+        #first {
+            border: 2px solid;
+            border-radius : 5px 5px 5px 5px;
+            background-color : rgb(62, 119, 4);
+        }
+        /* border type dashed, dotted, */
+        #second {
+            border : 3px dashed red;
+            background-color : rgb(151, 110, 5);
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="bord">First</div>
+    <div id="second" class="bord">Second</div>
+    
+</body>
+</html>

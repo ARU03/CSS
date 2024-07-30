@@ -1,0 +1,45 @@
+* {
+    margin : 0px;
+    padding: 0px;
+}
+nav {
+    padding : 5px;
+}
+nav a {
+    text-decoration : none;
+    margin-left : 55px;
+}
+header {
+    background-color: palegreen;
+    height : 50px;
+}
+#second {
+    height : 50px;
+    width : 50px;
+    background-color : rebeccapurple;
+    border-radius : 50%;
+}
+.box {
+    height : 100px;
+    width : 100px;
+    background-color : chocolate;
+    margin : 5px;
+    display : inline-block;
+}
+#box2 {
+    position : absolute;
+    z-index : 2;
+    left : 30px;
+}
+#container {
+    border : 3px solid;
+}
+#box4 {
+    position : fixed;
+    right : 10px;
+}
+footer {
+    position : fixed;
+    background-color : rgb(40, 156, 185);
+    bottom: 2px;
+}

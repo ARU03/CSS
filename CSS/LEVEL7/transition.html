@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transition</title>
+    <style>
+        .pseudo {
+            height : 25px;
+            width  : 150px;
+            background-color : forestgreen ;
+            border : 2px solid black;
+            border-radius : 10px;
+
+            transition-property : all;
+
+            /* time duration */
+            transition-duration : 1s;
+            /* transition-timing-function : ease-in-out; */
+            transition : steps(3) ;
+            transition-delay : 0s;
+        }
+        .pseudo:hover {
+            height : 30px;
+            width  : 160px;
+            background-color : lightcoral;
+        }
+
+        /* active mean when i click on the button then color red */
+        .pseudo:active {
+            height : 40px;
+            width  : 170px;
+            background-color : red;
+        }
+    </style>
+</head>
+<body>
+    <button class="pseudo">Learning Pseudo</button>
+    
+</body>
+</html>

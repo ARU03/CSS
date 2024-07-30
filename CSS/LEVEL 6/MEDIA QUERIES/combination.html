@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Media_Queries(Combination)</title>
+    <style>
+        .box {
+            height : 100px;
+            width  : 100px;
+            padding : 2px;
+            background-color : purple;
+            text-align : center;
+        }
+
+        /* When the width is between 250px and 300px 
+        the box shape will be automatically changed */
+
+        @media screen and (min-width : 250px) and (max-width : 300px) {
+            .box {
+                border-radius : 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Box 1</div>
+    
+</body>
+</html>

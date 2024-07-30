@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ANIMATION</title>
+    <style>
+        .box {
+            height : 75px;
+            width : 75px;
+            border : 2px solid black;
+            border-radius : 5px;
+            background-color : goldenrod;
+            position : relative;
+            top : 10px;
+            left: 10px;
+
+            /* animation: ghumakkad 2s case-in-out 1s 3
+            alternate; */
+
+            /* animation: golgol 10s case-in-out 1s infinite alternate; */
+            
+            animation-name : golgol;
+            animation-duration : 2s;
+            animation-timing-function: case-in-out;
+            animation-delay: 1s;
+            animation-iteration-count : infinite;
+
+            animation-direction : normal;
+            animation-direction : reverse;
+
+            /* animation shorthand */
+
+        }
+
+        /* @keyframes ghumakkad {
+            from {left:10px;}
+            to {left : 300px;}
+        } */
+
+        @keyframes golgol {
+
+            0% {left: 10%}
+
+            50% {left: 50px}
+
+            100% {left : 200px}
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box">Animate</div>
+    
+</body>
+</html>
